@@ -1,2 +1,2 @@
 # pagina-de-portifolio
- projeto desenvolvido em HTML e CSS para apresentar a recrutadores. 
+ projeto desenvolvido em HTML|CSS|JS para apresentar a recrutadores. 
