@@ -1,3 +1,4 @@
+
 // Quando a página carregar completamente
 document.addEventListener('DOMContentLoaded', function() {
     console.log("Página carregada! Vamos começar...");

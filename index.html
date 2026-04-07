@@ -14,6 +14,9 @@
 
 
     <main>
+
+
+        
         <header><img class="ab" src="minhas-imagens/foto perfil redon2.png" alt="foto perfil"><br>Olá! <br><strong>Sou
                 Fábio
                 Monteiro</strong>.</header>
@@ -33,7 +36,27 @@
             </picture>
             <!-- <picture><img class="front" src="minhas-imagens/front-enddev900.png" alt="imagem"></picture> -->
         </div>
-        <div>
+
+        <section class="sobre">
+    <h2>Sobre Mim</h2>
+    <p id="resumo-curto">
+        Profissional multidisciplinar com experiência em Front-End e Segurança do Trabalho...
+    </p>
+    
+    <!-- NOVO: Texto expandido (inicialmente escondido) -->
+    <div id="texto-completo" style="display: none;">
+        <p>Além da minha experiência em desenvolvimento web, tenho sólido background em 
+        Segurança do Trabalho, o que me permite criar soluções que consideram tanto 
+        aspectos técnicos quanto de compliance e gestão de riscos.</p>
+        
+        <p>Atualmente focado em Inteligência Artificial e automação de processos, 
+        sempre buscando integrar tecnologia com práticas de segurança.</p>
+    </div>
+    
+    <!-- NOVO: Botão interativo -->
+    <button id="btn-saber-mais" onclick="toggleTexto()">Ver mais</button>
+</section>
+        <!-- <div>
             <p class="link"><img src="minhas-imagens/link-icon.png" alt="ícone link"></p>
             <p id="descricao">Brasileiro (27/02/72), casado, 2 filhos, Moro em Cabo Frio Rio de Janeiro - Brasil. Tenho
                 interesse na posição de Programador Front-End. Com uma sólida formação técnica, bem como experiência
@@ -43,13 +66,13 @@
                 de forma eficaz para a sua equipe. <br>Atenciosamente, <br><em><ins>Fábio Henrique Mendes
                         Monteiro</ins></em>. <br>e-mail:<mark
                     style="background-color: #01898979;">fabioh2m@hotmail.com</mark><br></p>
-        </div>
+        </div> -->
         <footer><small>Projeto
             Portifólio Desenvolvido por: Fábio Monteiro</small>&reg;</footer>
        
     </main>
 
-
+<script src="script.js"></script>
 
 </body>
 

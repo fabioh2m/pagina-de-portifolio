@@ -73,6 +73,35 @@ header {
     
 }
 
+h2 {
+    color: black;
+}
+
+.sobre  {
+    color: rgb(1, 1, 22);
+    font-size: large;
+    
+    
+}
+
+
+
+#btn-saber-mais {
+    background: linear-gradient(45deg, #2196F3, #21CBF3);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+    transition: transform 0.3s;
+}
+
+#btn-saber-mais:hover {
+    transform: translateY(-2px);
+}
+
 
 div>p#descricao {
     display: none;
