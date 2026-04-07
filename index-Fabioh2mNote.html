@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Potifólio</title>
+    <link rel="shortcut icon" href="minhas-imagens/neofavcom.png" type="image/x-icon">
+    <link rel="stylesheet" href="style-Fabioh2mNote.css">
+</head>
+
+<body>
+
+
+
+    <main>
+
+
+
+        <header><img class="ab" src="minhas-imagens/foto perfil redon2.png" alt="foto perfil"><br>Olá! <br><strong>Sou
+                Fábio
+                Monteiro</strong>.</header>
+        <p class="badges"><a
+                href="https://www.linkedin.com/in/fabioh2m?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bvv%2FTENhFT3u8x519sg%2FmJw%3D%3D"
+                target="_blank" rel="external"><img src="minhas-imagens/LinkedIn-badge200.png" alt="ícone linkedin"></a>
+            <a href="https://github.com/fabioh2m" target="_blank" rel="external">
+                <img src="minhas-imagens/GitHub-badge200.png" alt="icone GitHub">
+            </a>
+            <a href="https://bit.ly/3W9btk0" target="_blank" rel="external"><img
+                    src="minhas-imagens/WhatsApp-badge200.png" alt="ícone wattsa"></a>
+        </p>
+        <div class="developer">
+            <picture>
+                <source media="(max-width: 540px)" srcset="minhas-imagens/front-enddev500.png" type="image/png">
+                <img class="droids" src="minhas-imagens/front-enddev900.png" alt="imagem de capa">
+            </picture>
+            <!-- <picture><img class="front" src="minhas-imagens/front-enddev900.png" alt="imagem"></picture> -->
+        </div>
+
+        <section class="sobre">
+            <h2>Sobre Mim</h2>
+            <p id="resumo-curto">
+                Profissional multidisciplinar com experiência em Front-End e Segurança do Trabalho...
+            </p>
+
+            <!-- NOVO: Texto expandido (inicialmente escondido) -->
+            <div id="texto-completo" style="display: none;">
+                <p>Além da minha experiência em desenvolvimento web, tenho sólido background em
+                    Segurança do Trabalho, o que me permite criar soluções que consideram tanto
+                    aspectos técnicos quanto de compliance, gestão de riscos e de pessoas.</p>
+
+                <p>Atualmente focado em Inteligência Artificial e automação de processos,
+                    sempre buscando integrar tecnologia com práticas de segurança.</p>
+            </div>
+
+            <!-- NOVO: Botão interativo -->
+            <button id="btn-saber-mais" onclick="toggleTexto()">Ver mais</button>
+        </section>
+
+        <section class="projetos">
+            <h2>Meus Projetos</h2>
+            <p id="resumo-projeto">
+                Aqui estão alguns dos meus projetos. Clique em "Ver Projetos" para explorar alguns dos meus
+                trabalhos.
+            </p>
+
+            <!-- visto terem poucos projetos, essa função está desativada por enquanto   -->
+            <!-- NOVO: Botões de filtro -->
+
+            <!-- <div class="filtros">
+        <button onclick="filtrarProjetos('todos')" class="filtro-btn active">Todos</button>
+        <button onclick="filtrarProjetos('html')" class="filtro-btn">HTML/CSS</button>
+        <button onclick="filtrarProjetos('python')" class="filtro-btn">Python</button>
+        <button onclick="filtrarProjetos('ia')" class="filtro-btn">IA</button>
+    </div> -->
+
+            <!-- Seus projetos existentes, adicione classes: -->
+            <div id="container-projetos" style="display: none;">
+
+                <div class="projeto html" data-categoria="html">
+                    <h3>Projeto Cordel</h3>
+                    <p>Site responsivo com HTML5 e CSS3</p>
+                    <a href="https://fabioh2m.github.io/projeto-cordel-neo-celulares/" target="_blank" rel="external">Ver projeto</a>
+                </div>
+
+                <div class="projeto html" data-categoria="html">
+                    <h3>Projeto Social</h3>
+                    <p>Interface para redes sociais</p>
+                    <a href="https://fabioh2m.github.io/projeto-social/" target="_blank" rel="external">Ver projeto</a>
+                </div>
+
+                <div class="projeto ia" data-categoria="ia">
+                    <h3>Sr. & Sra. Clean</h3>
+                    <p>Aplicação criada com IA generativa</p>
+                    <a href="https://sr-sra-clean-magic-touch.lovable.app" target="_blank" rel="external">Ver projeto</a>
+                </div>
+            </div>
+
+            <!-- NOVO: Botão para mostrar/ocultar projetos -->
+             <button id="btn-explorar-projeos" onclick="toggleContainer()">Ver projetos</button>
+        </section>
+        <div>
+            <p class="link"><img src="minhas-imagens/link-icon.png" alt="ícone link"></p>
+            <p id="descricao">Brasileiro (27/02/72), casado, 2 filhos, Moro em Cabo Frio Rio de Janeiro - Brasil. Tenho
+                interesse na posição de Programador Front-End Jr. bem como na área de Suporte. Com uma sólida formação técnica, bem como experiência
+                prática
+                adquirida em projetos freelance desde 2024, acredito que possuo as habilidades necessárias para
+                contribuir
+                de forma eficaz para a sua equipe. <br>Atenciosamente, e Grato por sua Atenção! <br><em><ins>Fábio Henrique Mendes
+                        Monteiro</ins></em>. <br>e-mail:<mark
+                    style="background-color: #01898979;">fabioh2m@hotmail.com</mark><br></p>
+        </div>
+        <footer><small>Projeto
+                Portifólio Desenvolvido por: Fábio Monteiro</small>&reg;</footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+<!-- #5314da,# 38aecc, #0090c1, #018989 -->
