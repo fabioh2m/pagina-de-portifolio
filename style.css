@@ -1,7 +1,8 @@
+/* PROJETO ATUALIZADO */
 @charset "UTF-8";
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
@@ -23,26 +24,36 @@ body {
 }
 
 main {
+
     background-image: linear-gradient(to right,  #02dfdfe3, #0091c1da);
-    
     box-shadow: 1px 1px 1px;
     /* background-color: #018989; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* 👈 espaçamento automático entre tudo */
+    height: auto;
     width: 1130px;
-    height: 924px;
     margin: auto;
-    /* margin-top: 90px; */
+    margin-top: 20px;
 
     border-radius: 10px;
 }
 
+
+
 header {
     margin-left: 74px;
-    margin-bottom: -5%;
+    margin-bottom: 0px;
     /* margin-top: 90px; */
     padding-top: 8px;
     font-size: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+}
+
+.ab {
+    box-shadow:rgba(240, 248, 255, 0.986)  2px -1px 11px 0px;
+    border-radius: 66px;   
 }
 
 .badges {
@@ -54,7 +65,7 @@ header {
 }
 
 .developer {
-    margin: auto;
+    margin: 0 auto;
     
     box-shadow:rgba(240, 248, 255, 0.986)  30px -4px 0px -2px;
     width: 874px;
@@ -74,19 +85,263 @@ header {
 }
 
 h2 {
+
     color: black;
 }
 
+
+
 .sobre  {
+   
+    color: rgb(10, 0, 0);
+    font-size: large;
+    padding: 10px !important;
+    
+}
+
+.projetos {
     color: rgb(1, 1, 22);
     font-size: large;
-    
-    
+    padding: 10px !important;
 }
 
 
 
 #btn-saber-mais {
+    background: linear-gradient(45deg, #2196F3, #21CBF3);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+
+    transition: transform 0.3s;
+}
+
+#btn-saber-mais:hover {
+    transform: translateY(-2px);
+}
+
+#texto-completo {
+
+background-color: aliceblue;
+
+}
+
+
+
+
+#btn-explorar-projeos {
+    background: linear-gradient(45deg, #2196F3, #21CBF3);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+    transition: transform 0.3s;
+}
+
+#btn-explorar-projeos:hover {
+    transform: translateY(-2px);
+}
+
+
+div>p#descricao {
+    display: none;
+}
+
+div:hover>#descricao {
+    display: block;
+}
+/*nas declarações acima, eu não precisei relacionar a classe link a pseudo classe (:hover) acho que como o <p> está na div, a img link que está na <p> aciona o hover. */
+
+.filtros {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filtro-btn {
+    background: #f1f3f4;
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+
+.filtro-btn:hover,
+.filtro-btn.active {
+    background: #2196F3;
+    color: white;
+}
+
+.projeto {
+    margin: 20px 40px !important;
+    padding: 15px !important;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s;
+    color: rgb(1, 1, 22);
+    font-size: large;
+}
+
+
+
+#resumo-projeto {
+    color: rgb(1, 1, 22);
+    font-size: large;
+}
+
+
+#descricao {
+
+background-color: aliceblue;
+padding: 5px;
+
+}
+
+
+/* .link {
+    
+    margin-right: 552px;
+    margin-left: 1069px;
+    margin-top: -51px;
+}
+
+#descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: aliceblue;
+    text-align: justify;
+     text-align: center;
+     text-indent: 30px;
+     margin-left: 571px;
+     border-radius: 10px;
+     border-style: groove;
+     border-color: aqua;
+     margin-top: 0%;
+     margin-bottom: 100px;
+     width: 455px;
+     height: 250px;
+     padding: 10px;
+
+} */
+
+
+
+
+
+footer {
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+   
+}
+
+
+
+
+
+
+/* CSS ORIGINAL DO PROJETO INICIAL. MUITAS LINHAS AQUI ESTÃO COMENTADAS INDIVIDUALMENTE E NÃO FAZEM PARTE DO PROJETO QUE ESTAVA EM FUNCIONAMENTO. COMO EU QUERIA COMENTAR TUDO, RETIREI O COMENTÁRIO INDIVIDUAL */
+/* @charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+} */
+
+/* body {
+    /* background-image: linear-gradient(to right, #0090c1, #02dfdf); 
+    background-image: url("minhas-imagens/noite-jordania1900.png");
+    max-width: 100%;
+    max-height: 100%;  
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100%; 
+    
+    
+    
+
+} */
+
+/* main {
+    background-image: linear-gradient(to right,  #02dfdfe3, #0091c1da);
+    
+    box-shadow: 1px 1px 1px;
+    background-color: #018989; 
+    width: 1130px;
+    height: 924px;
+    margin: auto;
+    margin-top: 90px; 
+
+    border-radius: 10px;
+} */
+
+/* header {
+    margin-left: 74px;
+    margin-bottom: -5%;
+    margin-top: 90px; 
+    padding-top: 8px;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+} */
+
+/* .badges {
+
+    margin-left: 428px;
+     margin-top: 58px;
+    margin-left: 926px; 
+
+} */
+
+/* .developer {
+    margin: auto;
+    
+    box-shadow:rgba(240, 248, 255, 0.986)  30px -4px 0px -2px;
+    width: 874px;
+    border-right: 500px;
+    border-radius: 10px;
+    
+    /* margin-left: 500px;
+    width: 1400px;
+    box-shadow: cornsilk 9px 9px 9px 9px; 
+} */
+
+/* .front {
+    
+    border-radius: 10px;
+       
+    
+}
+
+h2 {
+    color: black;
+} */
+
+/* .sobre  {
+    color: rgb(1, 1, 22);
+    font-size: large;
+    
+    
+} */
+
+
+
+/* #btn-saber-mais {
     background: linear-gradient(45deg, #2196F3, #21CBF3);
     color: white;
     padding: 10px 20px;
@@ -109,11 +364,11 @@ div>p#descricao {
 
 div:hover>#descricao {
     display: block;
-}
+} */
 /*nas declarações acima, eu não precisei relacionar a classe link a pseudo classe (:hover) acho que como o <p> está na div, a img link que está na <p> aciona o hover. */
 
 
-.link {
+/* .link {
     
     margin-right: 552px;
     margin-left: 1069px;
@@ -154,7 +409,7 @@ footer {
     margin-right: 2px;
     text-align: center;
    
-}
+} */
 
 
 /* #5314da,# 38aecc, #0090c1, #018989 */
