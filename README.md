@@ -12,6 +12,9 @@ Desenvolvedor Front-End em formação, com experiência prática em projetos rea
 🔗 Acesse o projeto online:
 👉 https://fabioh2m.github.io/pagina-de-portifolio/
 
+<img width="403" height="515" alt="Captura de tela 2026-04-13 130022" src="https://github.com/user-attachments/assets/cdd254c5-2714-4ef7-aad3-b32253a7ef6a" />
+
+
 🚀 Sobre o Projeto
 
 Este projeto é uma página de portfólio pessoal, desenvolvida inicialmente com HTML5 e CSS3, e posteriormente aprimorada com JavaScript para adicionar interatividade e melhorar a experiência do usuário.
@@ -35,12 +38,19 @@ JavaScript (Vanilla) → Interatividade e manipulação do DOM
 LinkedIn
 GitHub
 WhatsApp
+
 📂 Estrutura do Projeto
+
 📁 pagina-de-portifolio
+
  ├── index.html
+ 
  ├── style-Fabioh2mNote.css
+ 
  ├── script.js
+ 
  └── 📁 minhas-imagens
+ 
 💡 Destaques Técnicos
 Manipulação do DOM com JavaScript puro
 Controle de visibilidade de elementos (display: none/block)
